@@ -6,7 +6,7 @@ class MainContainer extends Component {
     render() {
         return (
             <div>
-                <NavBar title="WEB422 - Project Portal"/>
+                <NavBar title="Project Portal"/>
                 <div className="container-fluid">
                     <div className="row">
                     <SideBar highlight={this.props.highlight} />
